@@ -18,7 +18,7 @@ class House
   end
 
   def above_market_average?
-    price > 500000 ? true : false
+    price > 500000 
   end
 
   def rooms_from_category(category)
